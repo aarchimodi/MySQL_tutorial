@@ -14,7 +14,7 @@ select * from student;
 
 
 -- inserting rows into the table
--- while using another db make sure u exceute "use db_name" command
+-- while using another db make sure to exceute "use db_name" command 
 insert into student (id, name) values (101, "rhythm"), (102, "kavya");
 
 
