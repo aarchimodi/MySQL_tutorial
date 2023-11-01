@@ -34,6 +34,11 @@ modify column city int,
 modify column courses int;
 
 
+-- to rename a column name 
+alter table student 
+change column marks scores int;
+
+
 select * from student;
 
 -- where clause : to define some conditions
