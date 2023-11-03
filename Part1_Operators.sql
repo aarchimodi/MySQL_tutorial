@@ -49,6 +49,6 @@ select * from student where id between 100 and 103;
 -- all the values that are kavya and rhythm will be returned, even if one of the value from the list matches 
 select * from student where name in ("kavya", "Rhythm");
 
--- NOT - does opposite of IN operator
+-- NOT IN - does opposite of IN operator
 -- all the values that are not rhythm and kavya will be returned
 select * from student where name not in ("kavya", "Rhythm"); 
