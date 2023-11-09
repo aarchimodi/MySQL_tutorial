@@ -18,6 +18,7 @@ where courses = "DBMS";
 -- You'll need to issue separate UPDATE statements for each row you want to update. 
 
 
--- delete is used to delete existing row 
+-- delete is used to delete existing row
+-- delete from student - can delete whole table and once deleted cant be retrieved 
 delete from student
 where scores < 91;
